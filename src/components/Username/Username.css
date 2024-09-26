@@ -1,0 +1,68 @@
+section .logo {
+    padding-top: 2%;
+    margin-left: 2%;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Cormorant", serif;
+}
+
+/* Styles for phones */
+@media (max-width: 768px) {
+    /* Add your phone-specific styles here */
+    .quest input {
+        font-size: large;
+    }
+}
+
+/* Styles for computers */
+@media (min-width: 769px) {
+    /* Add your computer-specific styles here */
+    .quest input {
+        font-size: larger;
+    }
+
+    /* section .quest {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+    } */
+
+}
+
+/* section .section-wrap {
+    position: relative;
+    margin-left: 1%;
+    margin-right: 11%;
+    height: 60vh;
+} */
+
+
+
+section .user-question {
+    font-family: "Cormorant", serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* .quest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .quest input {
+    max-width: 1000px;
+    border: none;
+    font-family: "Cormorant", serif;
+} */
+
+.quest input::placeholder {
+    color: #888;
+    /* Placeholder text color */
+    font-style: italic;
+    /* Example additional style */
+    opacity: 0.5;
+}
