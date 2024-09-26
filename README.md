@@ -1,2 +1,0 @@
-# dora-client
-dora client
